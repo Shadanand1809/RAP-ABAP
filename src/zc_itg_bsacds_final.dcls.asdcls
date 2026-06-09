@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_ITG_BSACDS_FINAL'
+@MappingRole: true
+define role ZC_ITG_BSACDS_FINAL {
+  grant select on ZC_ITG_BSACDS_FINAL
+  where INHERITING CONDITIONS FROM ENTITY ZITG_BSACDS_FINAL REPLACING { ROOT WITH _BaseEntity };
+}

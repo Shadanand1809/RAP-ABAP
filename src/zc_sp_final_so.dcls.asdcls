@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_SP_FINAL_SO'
+@MappingRole: true
+define role ZC_SP_FINAL_SO {
+  grant select on ZC_SP_FINAL_SO
+  where INHERITING CONDITIONS FROM ENTITY ZSP_FINAL_SO REPLACING { ROOT WITH _BaseEntity };
+}

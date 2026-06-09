@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_SP_FINAL_SO'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_SP_FINAL_SO'
+  }
+}
+define service ZUI_SP_FINAL_SO_O4 provider contracts odata_v4_ui {
+  expose ZC_SP_FINAL_SO;
+}
